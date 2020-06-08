@@ -3,7 +3,11 @@ import React from 'react';
 const Work = (props)=> {
   return (
     <>
-      <li>{props.info}</li>
+      <li>
+        <h4>{props.title}</h4>
+        <img src={props.img} alt={props.title} />
+        <p>{props.text}</p>
+      </li>
     </>
   )
 }
