@@ -23,19 +23,21 @@ const Work_list = () => {
 
   return (
     <>
-      <h1>Work list</h1>
-      <ul>
-        {works.map(work => {
-          return (
-            <Work 
-              key={work.title} 
-              title={work.title} 
-              img={work.img_url} 
-              text={work.text}
-            />            
-          )
-        })}
-      </ul>
+      <section id="work_list" className="container">
+        <h1>Work list</h1>
+        <ul className="row">
+          {works.map(work => {
+            return (
+              <Work 
+                key={work.title} 
+                img={work.img_url}
+                title={work.title}  
+                text={work.text}
+              />            
+            )
+          })}
+        </ul>
+      </section>
     </>
   )
 }

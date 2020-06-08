@@ -2,6 +2,25 @@
   margin: 0; padding: 0;
   box-sizing: border-box;
 }
+
 body {
   text-align: center;
+}
+
+ul { list-style-type: none;}
+
+section {
+  padding: 60px 0;
+}
+
+section h1 { margin-bottom: 1em;}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+}
+#work_list {
+  
 }

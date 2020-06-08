@@ -4,8 +4,8 @@ const Work = (props)=> {
   return (
     <>
       <li>
-        <h4>{props.title}</h4>
         <img src={props.img} alt={props.title} />
+        <h4>{props.title}</h4>
         <p>{props.text}</p>
       </li>
     </>
