@@ -6,10 +6,12 @@ const Visual = () => {
   useEffect(()=> {
     console.log('component did mount')
     var swiper = new Swiper('.swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
+      effect: 'fade',
+      autoplay: true,
+      // navigation: {
+      //   nextEl: '.swiper-button-next',
+      //   prevEl: '.swiper-button-prev',
+      // },
       pagination: {
         el: '.swiper-pagination',
         dynamicBullets: true,
@@ -37,8 +39,8 @@ const Visual = () => {
           </div>
         </div>
 
-        <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div>
+        {/* <div className="swiper-button-next"></div>
+        <div className="swiper-button-prev"></div> */}
         <div className="swiper-pagination"></div>
       </div>
     </>

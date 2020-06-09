@@ -1,3 +1,4 @@
+@import url('./grid.css');
 * {
   margin: 0; padding: 0;
   box-sizing: border-box;
@@ -5,22 +6,40 @@
 
 body {
   text-align: center;
+  font-size: 18px;
 }
-
+a { text-decoration: none;}
 ul { list-style-type: none;}
 
 section {
   padding: 60px 0;
 }
 
-section h1 { margin-bottom: 1em;}
-.container {
-  width: 1200px;
-  margin: 0 auto;
+section h2 { 
+  margin-bottom: 1em;
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-right: 40px;
+  border-bottom: thick solid #000;
 }
-.row {
-  display: flex;
+
+
+.App-header { 
+  /* border: 1px solid red; */
+  height: 80px;
 }
-#work_list {
-  
+.App-header  h1 {
+  text-align: left;
+  line-height: 80px;
 }
+#gnb > ul { text-align: right;}
+#gnb > ul > li {
+  display: inline-block;
+  margin-left: 40px;
+  line-height: 80px;
+  text-transform: uppercase;
+}
+
+
+

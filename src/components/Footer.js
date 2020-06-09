@@ -1,4 +1,5 @@
 import React from 'react';
+import './Footer.css';
 
 export const Footer = ()=>{
   const d = new Date();
@@ -6,8 +7,8 @@ export const Footer = ()=>{
 
   return (
     <>
-      <footer>
-  <small>&copy; {year} CSSLICK MEDIA. all rights reserved.</small>
+      <footer className="container">
+        <small>&copy; {year} CSSLICK MEDIA. all rights reserved.</small>
       </footer>
     </>
   )

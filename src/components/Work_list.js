@@ -24,7 +24,7 @@ const Work_list = () => {
   return (
     <>
       <section id="work_list" className="container">
-        <h1>Work list</h1>
+        <h2>Work list</h2>
         <ul className="row">
           {works.map(work => {
             return (
