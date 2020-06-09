@@ -23,21 +23,29 @@ const Work_list = () => {
 
   return (
     <>
-      <section id="work_list" className="container">
-        <h2>Work list</h2>
-        <ul className="row">
-          {works.map(work => {
-            return (
-              <Work 
-                key={work.title} 
-                img={work.img_url}
-                title={work.title}  
-                text={work.text}
-              />            
-            )
-          })}
-        </ul>
-      </section>
+      <div 
+        className="container-fluid"
+        style={{
+          backgroundColor: '#000', 
+          color: "#fff",
+        }}
+      >
+        <section id="work_list" className="container">
+          <h2 style={{borderBottom: 'thick solid #fff'}}>Work list</h2>
+          <ul className="row">
+            {works.map(work => {
+              return (
+                <Work 
+                  key={work.title} 
+                  img={work.img_url}
+                  title={work.title}  
+                  text={work.text}
+                />            
+              )
+            })}
+          </ul>
+        </section>
+      </div>
     </>
   )
 }
