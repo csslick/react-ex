@@ -11,21 +11,39 @@ const About = () => {
             // display: "flex",
             flexFlow: "column",
             // paddingRight: "40px",
-            height: "520px",
+            // height: "520px",
             textAlign: "center",
             // border: '1px solid red'
           }}
         >
-          <img 
-            style={{borderRadius: '50%'}}
-            width="90%" src="./images/profile.jpg" />
+          <img
+            style={{ borderRadius: "50%" }}
+            width="80%"
+            src="./images/profile.jpg"
+          />
           <p
             style={{
               margin: "20px 0",
               fontSize: "22px",
             }}
-          >I'm a creator of multimedia and instructor</p>
-          <a href="mailto:tailofmoon@naver.com">E-mail: tailofmoon@naver.com</a>
+          >
+            <b>Michael Kwon</b> is the creator of multimedia and instructor
+          </p>
+          <p>
+            현업에서 멀티미디어 콘텐츠와 게임 개발자로 다양한 상용 작품을 런칭한
+            경험이 있으며 관련 업계에서 프리랜서로도 활동하였다. 미디어와 웹
+            분야에 꾸준히 관심을 가지면서 저서 집필, 강의 등을 겸하고 있다.
+          </p>
+          <br />
+          <p>
+            E-mail:{" "}
+            <a
+              style={{ color: "#333", textDecoration: "underline" }}
+              href="mailto:tailofmoon@naver.com"
+            >
+              tailofmoon@naver.com
+            </a>
+          </p>
         </div>
         <div className="col-6" style={{ textAlign: "left" }}>
           <ul class="timeline">

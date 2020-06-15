@@ -84,7 +84,7 @@ ul.timeline{
   width: 250px;
   left: 30px;
   /* border: 1px solid #333; */
-  padding: 1em;
+  padding: 1.5em 1em;
   margin-bottom: 50px;
   font-size: 14px;
   background: linear-gradient(to right, #40ca3e, #4ca2cb);
