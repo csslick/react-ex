@@ -30,10 +30,10 @@ function App() {
     >
       <Header mode={headerMode}/>
       <Visual/>
+      <About/>
+      <Work_list/>
       {/* 저서소개 */}
       <BookInfo/>
-      <Work_list/>
-      <About/>
       <Footer/>
     </div>
   );

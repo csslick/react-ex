@@ -8,10 +8,9 @@ const About = () => {
         <div
           className="col-6"
           style={{
-            display: "flex",
+            // display: "flex",
             flexFlow: "column",
-            paddingTop: "60px",
-            paddingRight: "40px",
+            // paddingRight: "40px",
             height: "520px",
             textAlign: "center",
             // border: '1px solid red'
@@ -19,13 +18,14 @@ const About = () => {
         >
           <img 
             style={{borderRadius: '50%'}}
-            width="100%" src="./images/profile.jpg" />
+            width="90%" src="./images/profile.jpg" />
           <p
             style={{
-              margin: "30px 0",
+              margin: "20px 0",
               fontSize: "22px",
             }}
           >I'm a creator of multimedia and instructor</p>
+          <a href="mailto:tailofmoon@naver.com">E-mail: tailofmoon@naver.com</a>
         </div>
         <div className="col-6" style={{ textAlign: "left" }}>
           <ul class="timeline">

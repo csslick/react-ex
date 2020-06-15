@@ -20,7 +20,7 @@ const Header = ({mode})=> {
               <li><a href="./">home</a></li>
               <li><a href="#">about</a></li>
               <li><a href="#">works</a></li>
-              <li><a href="#">community</a></li>
+              <li><a href="https://cafe.naver.com/csslick" target="_blank">community</a></li>
               <li><a href="#">contact</a></li>
             </ul>
           </nav>
