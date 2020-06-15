@@ -1,10 +1,16 @@
-import React from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 
-const Header = ()=> {
+const Header = ({mode})=> {
+
+  const header = useRef();
+
+  useEffect(() => {
+    console.log('header ', mode);
+  });
 
   return (
-    <>
-      <header className="App-header container">
+    <div className={'App-header ' + mode}>
+      <header ref={header} className='container'>
         <div className="row">
           <h1 className="col-6">
             <a href="./">CSSLICK</a>
@@ -20,7 +26,7 @@ const Header = ()=> {
           </nav>
         </div>
       </header>
-    </>
+    </div>
   )
 }
 

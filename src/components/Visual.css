@@ -1,0 +1,121 @@
+#visual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  /* background: url(https://picsum.photos/id/4/1920/1080); */
+  /* background-size: cover;
+  background-position: center; */
+  background-color: #444;
+  color: #fff;
+}
+#visual .top{
+  display: inline-block;
+  width: 300px;
+  border: 10px solid #fff;
+  border-bottom: none;
+  padding: 20px;
+  padding-bottom: 0;
+  font-size: 2em;
+  font-weight: bold;
+  opacity: 0;
+  animation: left 1s forwards 1s;
+}
+
+#visual h1{
+  font-size: 90px;
+  opacity: 0;
+  animation: fade 1s forwards 2s;
+}
+#visual .bottom{
+  display: inline-block;
+  width: 300px;
+  border: 10px solid #fff;
+  border-top: none;
+  padding: 20px;
+  padding-top: 0;
+  opacity: 0;
+  animation: right 1s forwards 1s;
+}
+
+@keyframes left {
+  from{
+    opacity: 0;
+    transform: translateX(-500px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes right {
+  from{
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+ul.timeline{
+  position: relative;
+  left: 50%;
+  width: 6px;
+  background: #666;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.timeline > li:hover { 
+  opacity: 0.8; 
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.timeline > li{
+  position: relative;
+  width: 250px;
+  left: 30px;
+  /* border: 1px solid #333; */
+  padding: 1em;
+  margin-bottom: 50px;
+  font-size: 14px;
+  background: linear-gradient(to right, #40ca3e, #4ca2cb);
+  color: #fff;
+  border-radius: 5px;
+}
+.timeline > li:nth-child(odd){
+  left: -275px;
+}
+.timeline > li:nth-child(odd):after{
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0px;
+  height: 0px;
+  border: 10px solid #333;
+  border-color: transparent transparent transparent #4ca2cb;
+}
+.timeline >li:nth-child(even):after{
+  content: '';
+  position: absolute;
+  left: -20px; top: 50%;
+  transform: translateY(-50%);
+  width: 0px;
+  height: 0px;
+  border: 10px solid #333;
+  border-color: transparent #40ca3e transparent transparent;
+}    
+.timeline li h3{ 
+  opacity: 1;
+  padding-bottom: 5px;
+}

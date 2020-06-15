@@ -7,7 +7,8 @@ const BookInfo = () => {
     <section className='container'>
       <div className="row">
         <figure className='col-3'>
-          <img style={{width: '100%'}} src="http://placehold.it/250x330"/>
+          {/* img width 250 */}
+          <img style={{width: '100%'}} src="./images/book.jpg"/>
         </figure>
         <article 
           className='col-9'

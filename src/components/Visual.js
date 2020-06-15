@@ -1,50 +1,26 @@
-import React, {useState, useEffect } from 'react';
-import Swiper from 'swiper';
-import 'swiper/css/swiper.css';
+import React, { useState, useEffect, useRef } from "react";
+import Swiper from "swiper";
+import "./Visual.css";
+// import 'swiper/css/swiper.css';
 
 const Visual = () => {
-  useEffect(()=> {
-    console.log('component did mount')
-    var swiper = new Swiper('.swiper-container', {
-      effect: 'fade',
-      autoplay: true,
-      // navigation: {
-      //   nextEl: '.swiper-button-next',
-      //   prevEl: '.swiper-button-prev',
-      // },
-      pagination: {
-        el: '.swiper-pagination',
-        dynamicBullets: true,
-      },
-    });
-  })
-
-  const style = {
-    width: '100%',
-    color: 'red'
-  }
+  const visual = useRef();
+  useEffect(() => {
+    console.log("component did mount");
+    // console.log(visual.current)
+  }, []);
 
   return (
-    <>
-      <div className="swiper-container">
-        <div className="swiper-wrapper">
-          <div className="swiper-slide" style={style}>
-            <img src="http://placeimg.com/1200/400/nature/a" />
-          </div>
-          <div className="swiper-slide" style={style}>
-            <img src="http://placeimg.com/1200/400/nature/b" />
-          </div>
-          <div className="swiper-slide" style={style}>
-            <img src="http://placeimg.com/1200/400/nature/c" />
-          </div>
-        </div>
-
-        {/* <div className="swiper-button-next"></div>
-        <div className="swiper-button-prev"></div> */}
-        <div className="swiper-pagination"></div>
-      </div>
-    </>
-  )
-}
+    <section ref={visual} id="visual">
+      <header>
+        {/* <h1>Welcome to CSSLICK</h1>
+        <p>Create Multimedia Contents With HTML, CSS and Javascript</p> */}
+        <p class="top">Welcome to</p>
+        <h1>CSSLICK</h1>
+        <p class="bottom">Create Multimedia Contents with HTML, CSS and Javascript</p>
+      </header>
+    </section>
+  );
+};
 
 export default Visual;
