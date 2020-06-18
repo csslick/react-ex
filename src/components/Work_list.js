@@ -11,46 +11,34 @@ const Work_list = () => {
     //   url: 'https://csslick.github.io/sns-api/'
     // },
     { 
-      title: '반응형 웹 - ME 포트폴리오 테마',
-      img_url: './images/me_theme.jpg',
-      text: '반응형 레아이아웃 포트폴리오 테마 프로젝트. 진입 애니메이션과 시각화 그래프 등을 구현',
-      url: 'https://csslick-me.netlify.app/'
+      title: '2017 수료생 작품집',
+      img_url: './images/portfolio2017.jpg',
+      text: '기존의 서비스를 디자인부터 새롭게 리뉴얼한 팀 프로젝트 모음집',
+      url: './images/팀프로젝트북170919.pdf'
     },
     { 
-      title: '핀터레스트 스타일 반응형 레이아웃',
-      img_url: './images/portfolio_pin.jpg',
-      text: '화면의 폭에 따라 사진의 배열이 변하게 되는 핀터레스트 스타일의 반응형 갤러리 페이지',
-      url: 'https://csslick.github.io/pinterest-layout/'
-    },
-    { 
-      title: '커스텀 채크박스',
-      img_url: './images/csslick_check.png',
-      text: "채크상자를 커스텀 디자인 구현한 편리한 플러그인입니다.",
-      url: 'https://github.com/csslick/custom_checkbox'
-    },
-    { 
-      title: 'do_type.js',
-      img_url: './images/do_type.png',
-      text: "매우 심플하고 간단하게 사용할 수 있는 오토타이핑 효과 자바스크립트 플러그인",
-      url: 'https://github.com/csslick/do_type'
-    },
-    { 
-      title: 'txtShadow.js',
-      img_url: './images/txtShadow.png',
-      text: "Animated Interactive Text Shadow Plugin For jQuery",
-      url: 'https://www.jqueryscript.net/text/Animated-Interactive-Text-Shadow-Plugin-For-jQuery-txtShadow.html'
-    },
-    { 
-      title: '천문대 홈페이지 - 수료생 작품',
+      title: '2018 수료생 작품',
       img_url: './images/portfolio_astro.jpg',
-      text: "서울시립천문대를 새롭게 리뉴얼 개편하여 제작한 팀 프로젝트 포트폴리오",
+      text: "서울시립천문대를 새롭게 리뉴얼하여 제작한 팀 프로젝트 포트폴리오",
       url: 'https://eugeneeeeee.github.io/teamproject_observatory/'
     },
+    { 
+      title: '2019 수료생 작품',
+      img_url: './images/portfolio2019.jpg',
+      text: "기존 동물병원 홈페이지를 새롭게 리뉴얼하여 제작한 팀 프로젝트 포트폴리오",
+      url: 'https://lynsphere.github.io/2nd_Haemaru/index.html'
+    },
     // { 
-    //   title: '병원 홈페이지 - 수료생 작품',
+    //   title: '2020 수료생 작품',
     //   img_url: './images/portfolio_dental.jpg',
     //   text: "낡은 디자인의 병원 홈페이지를 리뉴얼하여 제작한 팀 프로젝트 포트폴리오",
     //   url: 'https://ehduddl0601.github.io/human/'
+    // },
+    // { 
+    //   title: 'do_type.js',
+    //   img_url: './images/do_type.png',
+    //   text: "매우 심플하고 간단하게 사용할 수 있는 오토타이핑 효과 자바스크립트 플러그인",
+    //   url: 'https://github.com/csslick/do_type'
     // },
   ])
 
