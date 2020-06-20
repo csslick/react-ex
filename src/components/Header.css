@@ -18,9 +18,10 @@
   left: 0; top: 0;
   width: 100%;
   background: rgba(255,255,255,1);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .App-header.fixed a { color: #444;}
-
+#gnb > ul > li > a:hover { color: #67b26b;}
 
 /* table ~ PC */
 @media screen and (min-width: 1024px){

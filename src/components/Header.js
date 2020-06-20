@@ -27,10 +27,10 @@ const Header = ({ mode }) => {
                 <a href="./">home</a>
               </li>
               <li>
-                <a href="#">about</a>
+                <a href="#about">about</a>
               </li>
               <li>
-                <a href="#">works</a>
+                <a href="#work_list">works</a>
               </li>
               <li>
                 <a href="https://cafe.naver.com/csslick" target="_blank">

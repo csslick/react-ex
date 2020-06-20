@@ -4,14 +4,14 @@ import './BookInfo.css';
 const BookInfo = () => {
 
   return (
-    <section className='container'>
+    <section className='container' id="bookInfo">
       <div className="row">
-        <figure className='col-3'>
+        <figure className='col-4'>
           {/* img width 250 */}
-          <img style={{width: '100%'}} src="./images/book.jpg"/>
+          <img style={{width: '100%',maxWidth:'300px'}} src="./images/book.jpg"/>
         </figure>
         <article 
-          className='col-9'
+          className='col-8'
           style={{textAlign: "left", padding: '0 30px 30px 30px'}}>
           <h2>자바스크립트 프로젝트북</h2>
           <p style={{margin: '1em 0', fontSize:'20px'}}>실무에 적합한 9가지 프로젝트로 배우는 웹 프로그래밍</p>
