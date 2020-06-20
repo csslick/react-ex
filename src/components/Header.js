@@ -8,6 +8,13 @@ const Header = ({ mode }) => {
   useEffect(() => {
     console.log("header ", mode);
     console.log("toggle= ", toggle);
+
+    const menus = document.querySelectorAll('#gnb a');
+    menus.forEach((menu)=> {
+      menu.addEventListener('click', function(){
+        handleToggle();
+      });
+    })
   });
 
   const handleToggle = () => {
@@ -43,7 +50,7 @@ const Header = ({ mode }) => {
             </ul>
           </nav>
           <button id="toggle" onClick={handleToggle}>
-            <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
+            <i className="fa fa-bars fa-3x" aria-hidden="true"></i>
           </button>
         </div>
       </header>
