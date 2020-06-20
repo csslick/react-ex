@@ -25,36 +25,4 @@ section h2 {
   border-bottom: thick solid #000;
 }
 
-.App-header { 
-  position: relative;
-  height: 80px;
-  background: rgba(255,255,255,1);
-  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
-  /* border-bottom: 1px solid rgba(0,0,0, 0.3); */
-  z-index: 999;
-  transition: 0.5s;
-}
-.App-header a { color: #000;}
-
-.App-header.fixed { 
-  position: fixed;
-  width: 100%;
-  background: rgba(0,0,0,0.8);
-}
-.App-header.fixed a { color: #fff;}
-
-.App-header h1 {
-  text-align: left;
-  line-height: 80px;
-}
-
-#gnb > ul { text-align: right;}
-#gnb > ul > li {
-  display: inline-block;
-  margin-left: 40px;
-  line-height: 80px;
-  text-transform: uppercase;
-}
-
-
 

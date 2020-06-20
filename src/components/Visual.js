@@ -15,9 +15,9 @@ const Visual = () => {
       <header>
         {/* <h1>Welcome to CSSLICK</h1>
         <p>Create Multimedia Contents With HTML, CSS and Javascript</p> */}
-        <p class="top">Welcome to</p>
+        <p className="top">Welcome to</p>
         <h1>CSSLICK</h1>
-        <p class="bottom">Create Multimedia Contents with HTML, CSS and Javascript</p>
+        <p className="bottom">Create Multimedia Contents with HTML, CSS and Javascript</p>
       </header>
     </section>
   );

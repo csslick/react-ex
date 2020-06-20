@@ -1,0 +1,78 @@
+.App-header { 
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  background: #444;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.4); */
+  /* border-bottom: 1px solid rgba(0,0,0, 0.3); */
+  z-index: 999;
+  transition: 0.5s;
+}
+.App-header a { color: #fff;} 
+#toggle {
+  border: none;
+  background: none;
+}
+.App-header.fixed { 
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%;
+  background: rgba(255,255,255,1);
+}
+.App-header.fixed a { color: #444;}
+
+
+/* table ~ PC */
+@media screen and (min-width: 1024px){
+  .App-header h1 {
+    text-align: left;
+    line-height: 80px;
+  }
+  #gnb > ul { text-align: right;}
+  #gnb > ul > li {
+    display: inline-block;
+    margin-left: 40px;
+    line-height: 80px;
+    text-transform: uppercase;
+  }
+  #toggle { display: none;}
+  
+}
+
+
+/* Mobile */
+@media screen and (max-width: 1023px) {
+  .App-header h1 {
+    text-align: left;
+    line-height: 80px;
+    margin-left: 20px;
+  }
+  
+  .App-header a { color: #fff;}  
+  .App-header .fa { color: #fff;}
+  .App-header.fixed a { color: #444;}
+  .App-header.fixed .fa { color: #444;}
+  
+  #gnb { width: 100%;}
+  #gnb > ul { 
+    background: #000; 
+    text-align: center;
+    padding: 2em;
+    /* border: 1px solid red; */
+  }
+  #gnb > ul > li {
+    display: block;
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  #gnb > ul > li > a { color: #fff;}
+  #toggle {
+    display: block;
+    position: absolute;
+    right: 20px; top: 24px;
+  }
+  
+  #gnb { display: none;}
+  #gnb.show { display: block; }
+  
+}

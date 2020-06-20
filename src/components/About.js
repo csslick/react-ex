@@ -6,7 +6,7 @@ const About = () => {
       <h2 style={{ marginBottom: "60px" }}>About Course</h2>
       <article className="row" style={{ textAlign: "left" }}>
         <div
-          className="col-6"
+          className="col-4"
           style={{
             // display: "flex",
             flexFlow: "column",
@@ -45,8 +45,8 @@ const About = () => {
             </a>
           </p>
         </div>
-        <div className="col-6" style={{ textAlign: "left" }}>
-          <ul class="timeline">
+        <div className="col-8" style={{ textAlign: "left" }}>
+          <ul className="timeline">
             <li>
               <h3>1단계: UXUI Basic</h3>
               <p>UXUI에 대한 기본 이론과 실습.</p>
