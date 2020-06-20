@@ -8,7 +8,7 @@ const BookInfo = () => {
       <div className="row">
         <figure className='col-4'>
           {/* img width 250 */}
-          <img style={{width: '100%',maxWidth:'300px'}} src="./images/book.jpg"/>
+          <img style={{width: '100%', maxWidth:'300px'}} src="./images/book.jpg"/>
         </figure>
         <article 
           className='col-8'
