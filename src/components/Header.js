@@ -43,7 +43,7 @@ const Header = ({ mode }) => {
                 </a>
               </li>
               <li>
-                <a href="#">contact</a>
+                <a href="#main_footer">contact</a>
               </li>
             </ul>
           </nav>

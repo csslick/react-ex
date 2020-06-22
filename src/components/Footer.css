@@ -6,12 +6,12 @@
 
 #main_footer > .btn_top {
   position: absolute;
-  right: 0px; top: -32px;
-  width: 32px;
-  height: 32px;
+  right: 0px; top: -48px;
+  width: 48px; height: 48px;
   background: #333;
   color: #fff;
-  font-size: 14px; line-height: 32px;
+  font-size: 14px;
+  line-height: 48px;
 }
 
 #main_footer > .sns {
@@ -39,3 +39,9 @@
   margin-top: -2px;
 }
 #main_footer > .sns > li > a { color: #333;}
+
+@media screen and (max-width:767px) {
+  #main_footer > .btn_top {
+    right: 20px;
+  }
+}
