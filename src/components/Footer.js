@@ -7,7 +7,8 @@ export const Footer = ()=>{
 
   return (
     <>
-      <footer className="container">
+      <footer className="container" id="main_footer">
+        <a href="#visual" className="btn_top">top</a>
         <small>&copy; {year} CSSLICK MEDIA. all rights reserved.</small>
       </footer>
     </>

@@ -6,13 +6,11 @@ const Header = ({ mode }) => {
   const [toggle, setToggle] = useState("");
 
   useEffect(() => {
-    console.log("header ", mode);
-    console.log("toggle= ", toggle);
-
     const menus = document.querySelectorAll('#gnb a');
     menus.forEach((menu)=> {
       menu.addEventListener('click', function(){
         handleToggle();
+        console.log(this.hash);
       });
     })
   });
@@ -22,7 +20,7 @@ const Header = ({ mode }) => {
   };
 
   return (
-    <div className={"App-header " + mode}>
+    <div className={"App-header " + mode} id="main_header">
       <header ref={header} className="container">
         <div className="row">
           <h1 className="col-2">
