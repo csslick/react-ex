@@ -52,7 +52,7 @@ const Work_list = () => {
         }}
       >
         <section id="work_list" className="container">
-          <h2 style={{borderBottomColor: '#fff'}}>Works</h2>
+          <h2 style={{borderBottomColor: '#fff'}}>Showcase</h2>
           <ul className="row">
             {works.map(work => {
               return (

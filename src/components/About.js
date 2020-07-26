@@ -57,7 +57,7 @@ const About = () => {
             style={{
               margin: "20px 0",
               fontSize: "22px",
-            }}
+            }} 
           >
             <b>Michael Kwon</b> is the creator of multimedia and instructor
           </p>

@@ -35,7 +35,7 @@ const Header = ({ mode }) => {
                 <a href="#about">about</a>
               </li>
               <li>
-                <a href="#work_list">works</a>
+                <a href="#work_list">showcase</a>
               </li>
               <li>
                 <a href="https://cafe.naver.com/csslick" target="_blank">
