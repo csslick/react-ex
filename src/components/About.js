@@ -51,7 +51,8 @@ const About = () => {
           <img
             style={{ borderRadius: "50%" }}
             width="50%"
-            src="./images/profile.jpg"
+            src="./images/profile2.jpg"
+            alt="profile image"
           />
           <p
             style={{
